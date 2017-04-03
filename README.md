@@ -36,7 +36,7 @@ Example:
 
 The current API rate limit is 100/1 calls/minute per client's ip address.
 
-All generated thumbnails will be host CloudFlare CDN
+All generated thumbnails will be host CloudFlare CDN and serve over https, and without any watermarks.
 
-Internally I use [Wappalyzer](https://github.com/AliasIO/Wappalyzer) for analyzing technologies of websites
+Internally I use [Wappalyzer](https://github.com/AliasIO/Wappalyzer) for analyzing technologies of websites.
 
