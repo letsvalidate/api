@@ -40,3 +40,4 @@ All generated thumbnails will be host CloudFlare CDN and serve over https, and w
 
 Internally I use [Wappalyzer](https://github.com/AliasIO/Wappalyzer) for analyzing technologies of websites.
 
+Currently for accessing the APIs no need any keys.
