@@ -1,3 +1,6 @@
+You can follow us on [Twitter](https://twitter.com/letsvalidate) for upcoming updates.
+
+
 ### API for generating thumbnails of captured screenshots of websites.
 
     /v1/thumbs/
