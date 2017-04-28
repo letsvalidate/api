@@ -1,4 +1,4 @@
-You can follow us on [Twitter](https://twitter.com/letsvalidate) for upcoming updates.
+You can follow us on [Twitter](https://twitter.com/letsvalidate) or subscribe to our [newsletter](http://eepurl.com/cMQjGz) for upcoming updates.
 
 
 ### API for generating thumbnails of captured screenshots of websites.
@@ -37,12 +37,12 @@ Example:
 
 ### Notes
 
-The current API rate limit is 100/1 calls/minute per client's ip address.
+* The current API rate limit is 100/1 calls/minute per client's ip address.
 
-All generated thumbnails will be host CloudFlare CDN and serve over https, and without any watermarks.
+* All generated thumbnails will be host CloudFlare CDN and serve over https, and without any watermarks.
 
-Internally I use [Wappalyzer](https://github.com/AliasIO/Wappalyzer) for analyzing technologies of websites.
+* Internally I use [Wappalyzer](https://github.com/AliasIO/Wappalyzer) for analyzing technologies of websites.
 
-Currently for accessing the APIs no need any keys.
+* Currently for accessing the APIs no need any keys.
 
-The thumbnailing handles all modern websites.
+* The thumbnailing handles all modern websites.
