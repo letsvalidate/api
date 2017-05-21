@@ -59,6 +59,55 @@ Example (json output):
 ```
 </details>
 
+Example of using `og` size with the following HTML code.
+
+```html
+<!-- Put additional og tags here -->
+<meta property="og:image" content="https://api.letsvalidate.com/v1/thumbs?url=kontaktify.com&size=og" />
+
+<!-- The same image also works for twitter card -->
+<!-- Put additional twitter card tags here -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://api.letsvalidate.com/v1/thumbs?url=kontaktify.com&size=og" />
+```
+
+<details>
+
+  <summary>A list of accepted devices:</summary>
+
+```  
+galaxys5
+nexus5x
+nexus6p
+iphone5
+iphone6
+iphone6plus
+ipad
+ipadpro
+iphone4
+ipadmini
+nokian9
+nokialumia520
+nexus7
+nexus6
+nexus5
+nexus4
+nexus10
+microsoftlumia950
+microsoftlumia550
+blackberryz30
+blackberryplaybook
+galaxynote3
+galaxynoteii
+galaxysiii
+kindlefirehdx
+lgoptimusl70
+laptopwithtouch
+laptopwithmdpiscreen
+laptopwithhidpiscreen
+```
+</details>
+
 ### API for analyzing technologies of websites.
 
     /v1/technologies/
@@ -174,56 +223,6 @@ Example:
 }
 ```
 </details>
-
-Example of using `og` size with the following HTML code.
-
-```
-<!-- Put additional og tags here -->
-<meta property="og:image" content="https://api.letsvalidate.com/v1/thumbs?url=kontaktify.com&size=og" />
-
-<!-- The same image also works for twitter card -->
-<!-- Put additional twitter card tags here -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://api.letsvalidate.com/v1/thumbs?url=kontaktify.com&size=og" />
-```
-
-<details>
-
-  <summary>A list of accepted devices:</summary>
-
-```  
-galaxys5
-nexus5x
-nexus6p
-iphone5
-iphone6
-iphone6plus
-ipad
-ipadpro
-iphone4
-ipadmini
-nokian9
-nokialumia520
-nexus7
-nexus6
-nexus5
-nexus4
-nexus10
-microsoftlumia950
-microsoftlumia550
-blackberryz30
-blackberryplaybook
-galaxynote3
-galaxynoteii
-galaxysiii
-kindlefirehdx
-lgoptimusl70
-laptopwithtouch
-laptopwithmdpiscreen
-laptopwithhidpiscreen
-```
-</details>  
-
 
 ### Notes
 
