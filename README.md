@@ -237,3 +237,5 @@ Example:
 * Currently for accessing the APIs no need any keys.
 
 * The thumbnailing handles all modern websites.
+
+* Using [headless chrome](https://chromium.googlesource.com/chromium/src/+/lkgr/headless/README.md) for capturing screenshots. 
