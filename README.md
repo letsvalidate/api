@@ -9,6 +9,7 @@ Name           | Default            | Accepted Value        | Description
 ----           | -------            | --------------        | -----------
 url            |                    | Any valid URLs        | Target URL (**required**), http(s):// prefix is optional
 output         | raw                | raw, json             | Output format (raw, json)
+prettify       | false              | Any boolean values    | Prettify JSON output
 format         | jpg                | jpg, jpeg, png        | Image format (jpg, png)
 quality        | 100                | 1..100                | Image quality
 full           | false              | Any boolean values    | Capture full page
@@ -112,9 +113,10 @@ laptopwithhidpiscreen
 
     /v1/technologies/
 
-Name    | Type      | Description
-----    | ----      | -----------
-url     | string    | Target URL (**required**), http(s):// prefix is optional
+Name     | Type      | Default | Description
+----     | ----      | ------- | -----------
+url      | string    |         | Target URL (**required**), http(s):// prefix is optional
+prettify | boolean   | false   | Prettify JSON output
 
 Example:
 
