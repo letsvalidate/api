@@ -13,13 +13,14 @@ prettify       | false              | Any boolean values    | Prettify JSON outp
 format         | jpg                | jpg, jpeg, png        | Image format (jpg, png)
 quality        | 100                | 1..100                | Image quality
 full           | false              | Any boolean values    | Capture full page
-size           |                    | t, s, m, l, x, og     | The size of the thumbnail. Available predefined sizes: **t** - Tiny (90x68), **s** - Small (120x90), **m** - Medium (200x150), **l** - Large (400x300), **x** - Extra large (480x360), **og** - Recommended image size of Facebook's Open Graph protocol (1200x630)
+size           |                    | t, s, m, l, x, og, o  | The size of the thumbnail. Available predefined sizes: **t** - Tiny (90x68), **s** - Small (120x90), **m** - Medium (200x150), **l** - Large (400x300), **x** - Extra large (480x360), **og** - Recommended image size of Facebook's Open Graph protocol (1200x630), **o**- Original size, ***widthxheight** - Custom sizes
 width          | 320                | 1..16383              | The width of the thumbnail
 height         | 240 (mobile: 568)  | 1..16383              | The height of the thumbnail
 mobile         | false              | Any boolean values    | Whether to emulate mobile device. This includes viewport meta tag, overlay scrollbars, text autosizing and more
 device         |                    | See the below list    | Predefined user agent, viewport width & height, ...
 viewportWidth  | 1200 (mobile: 412) | 1..1600               | The viewport width of the page
 viewportHeight | 1200 (mobile: 732) | 1..1600               | The viewport height of the page
+viewport       |                    | widthxheight          | The viewport width & height of the page
 userAgent      |                    | Any valid user agents | Not yet implemented
 delay          |                    | 0..10                 | Not yet implemented
 
