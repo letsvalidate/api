@@ -23,6 +23,7 @@ device         |                    | See the below list    | Predefined user ag
 viewportWidth  | 1200 (mobile: 412) | 1..1600               | The viewport width of the page
 viewportHeight | 1200 (mobile: 732) | 1..1600               | The viewport height of the page
 viewport       |                    | widthxheight          | The viewport width & height of the page
+selector       |                    | CSS Selector          | Capture DOM node
 userAgent      |                    | Any valid user agents | Not yet implemented
 delay          |                    | 0..10                 | Not yet implemented
 
