@@ -1,3 +1,6 @@
+
+[Talk with us on Slack](https://join.slack.com/t/get-api/shared_invite/enQtMzQ4MzkzMzE1NDE1LWI0OTE3YzIyY2FiNGVhMzBhZDIwOGY4ZjJkMjZhN2ZkZTVjMWMxYTE4NWEwMzFiMzAxODM4YmExNDgyMDY2YWE)
+
 > <a href="https://slack.com/oauth/authorize?scope=commands&client_id=90891660039.191950558144"><img alt="Add to Slack" height="40" width="139" src="https://platform.slack-edge.com/img/add_to_slack.png" srcset="https://platform.slack-edge.com/img/add_to_slack.png 1x, https://platform.slack-edge.com/img/add_to_slack@2x.png 2x" /></a> - Easily share website screenshots within your Slack chat and more. <img src="https://github.com/letsvalidate/api/raw/master/letsvalidate-slack.gif" width="850" height="auto" alt="Screen record">
 
 > You can follow us on [Twitter](https://twitter.com/letsvalidate) or subscribe to our [newsletter](http://eepurl.com/cMQjGz) for upcoming updates.
